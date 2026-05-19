@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mc Harold Leviste — Freelance Web, Mobile & Game Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grid-bg"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">ML.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#services" onclick="closeMenu()">Services</a>
+    <a href="#skills" onclick="closeMenu()">Skills</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#education" onclick="closeMenu()">Education</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-eyebrow">BSIS Student · 3rd Year · New Era University</div>
+    <h1 class="hero-name">Mc Harold<br><em>Leviste</em></h1>
+    <p class="hero-title">Freelance Web, Mobile &amp; Game Developer</p>
+    <p class="hero-desc">3rd-year BSIS student passionate about web development, Android apps, and game development. I build real projects and am eager to take on freelance work — delivering practical, well-crafted solutions while continuing to grow as a developer.</p>
+    <div class="hero-status">
+      <span class="status-dot"></span>
+      Actively learning · Open to freelance &amp; internship opportunities
+    </div>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View projects</a>
+      <a href="#contact" class="btn-outline">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">About me</div>
+    <div class="about-grid fade-in">
+      <div class="about-text">
+        <h2>Building real things while I study</h2>
+        <p>I'm Mc Harold Leviste, a 3rd-year BS Information Systems student at New Era University, focused on web development, Android apps, and game development.</p>
+        <p>I don't just learn in the classroom — I consistently apply what I study to real personal projects. From a responsive portfolio website to an Android weather app and an ongoing 2D game in Godot, every project pushes me forward as a developer.</p>
+        <p>I'm now offering freelance services for small, practical projects while I continue to grow and upskill every day.</p>
+      </div>
+      <div class="about-right">
+        <div class="about-card">
+          <div class="lbl">School</div>
+          <div class="val">New Era University</div>
+          <div class="val-sub">BS Information Systems · 3rd Year</div>
+        </div>
+        <div class="about-card">
+          <div class="lbl">Phone</div>
+          <div class="val">09074692134</div>
+        </div>
+        <div class="about-card">
+          <div class="lbl">Location</div>
+          <div class="val">Quezon City, Philippines</div>
+          <div class="val-sub">Open to remote work</div>
+        </div>
+        <div class="about-card">
+          <div class="lbl">Languages</div>
+          <div class="val">Filipino · English</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-label">Freelance services offered</div>
+    <div class="services-grid fade-in">
+      <div class="service-card">
+        <div class="service-icon">🌐</div>
+        <h3>Landing Pages & Websites</h3>
+        <p>Responsive landing pages and small business websites built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔧</div>
+        <h3>Bug Fixes & Maintenance</h3>
+        <p>Website bug fixes, updates, and general maintenance for existing sites.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Android App Development</h3>
+        <p>Simple Android utility apps and API-based apps built with Android Studio and Java/Kotlin.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎮</div>
+        <h3>2D Game Development</h3>
+        <p>2D game development and prototyping using Godot Engine (or Unity).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">Technical skills</div>
+    <div class="skills-grid fade-in">
+      <div class="skill-block">
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Mobile & Game</h3>
+        <div class="skill-tags">
+          <span class="tag">Android Studio</span>
+          <span class="tag">Java / Kotlin</span>
+          <span class="tag">Godot Engine</span>
+          <span class="tag">GDScript</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Networking</h3>
+        <div class="skill-tags">
+          <span class="tag">LAN Setup</span>
+          <span class="tag">IPv6</span>
+          <span class="tag">Cisco Packet Tracer</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Tools</h3>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Android Studio</span>
+          <span class="tag">Godot</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Soft Skills</h3>
+        <div class="skill-tags">
+          <span class="tag">Time Management</span>
+          <span class="tag">Deadline Management</span>
+          <span class="tag">Self-directed Learner</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Currently learning</h3>
+        <div class="skill-tags">
+          <span class="tag learning">React</span>
+          <span class="tag learning">PHP / Laravel</span>
+          <span class="tag learning">MySQL</span>
+          <span class="tag learning">Tailwind CSS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Projects</div>
+    <div class="projects-list fade-in">
+
+      <div class="project-item">
+        <div>
+          <div class="project-num">01</div>
+          <div class="project-name">Portfolio Website</div>
+          <div class="project-sub">Personal Project · HTML / CSS / JavaScript</div>
+          <ul class="project-bullets">
+            <li>Designed and built a fully responsive personal portfolio site from scratch</li>
+            <li>Implemented smooth scroll and mobile-first layout</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <span class="project-badge badge-done"><span class="badge-dot"></span>Completed</span>
+        </div>
+        <div class="project-arrow">→</div>
+      </div>
+
+      <div class="project-item">
+        <div>
+          <div class="project-num">02</div>
+          <div class="project-name">Weather App</div>
+          <div class="project-sub">Personal Project · Android Studio · Java / Kotlin</div>
+          <ul class="project-bullets">
+            <li>Built an Android weather app using Android Studio with real-time data from a public weather API</li>
+            <li>Implemented location detection, dynamic UI updates, and clean Material Design layout</li>
+            <li>Handled API calls, JSON parsing, and error states for a smooth user experience</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tag">Android Studio</span>
+            <span class="tag">Java / Kotlin</span>
+            <span class="tag">Weather API</span>
+            <span class="tag">Material Design</span>
+          </div>
+          <span class="project-badge badge-done"><span class="badge-dot"></span>Completed</span>
+        </div>
+        <div class="project-arrow">→</div>
+      </div>
+
+      <div class="project-item">
+        <div>
+          <div class="project-num">03</div>
+          <div class="project-name">2D Game Project</div>
+          <div class="project-sub">Personal Project · Godot Engine · GDScript &nbsp;·&nbsp; <span style="color:var(--warn-text)">In progress</span></div>
+          <ul class="project-bullets">
+            <li>Currently developing a 2D game in Godot Engine as a self-directed learning project</li>
+            <li>Learning game mechanics, scene management, collision detection, and player controls using GDScript</li>
+            <li>Applying programming logic and problem-solving outside of traditional web/app development</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tag">Godot 4</span>
+            <span class="tag">GDScript</span>
+            <span class="tag">2D Physics</span>
+          </div>
+          <span class="project-badge badge-wip"><span class="badge-dot"></span>In progress</span>
+        </div>
+        <div class="project-arrow">→</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label">Education</div>
+    <div class="edu-card fade-in">
+      <div>
+        <div class="edu-school">New Era University</div>
+        <div class="edu-degree">BS Information Systems</div>
+        <div class="edu-year">2023 – Present · 3rd Year</div>
+        <div class="skill-tags">
+          <span class="tag">Web Systems</span>
+          <span class="tag">Systems Analysis & Design</span>
+          <span class="tag">OOP</span>
+          <span class="tag">Mobile Development</span>
+          <span class="tag">Networking</span>
+        </div>
+      </div>
+      <div class="edu-note">Consistently applying<br>classroom concepts<br>to real projects</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">Get in touch</div>
+    <div class="contact-grid fade-in">
+      <div class="contact-info">
+        <h2>Let's work together</h2>
+        <p>Open to freelance projects, internship opportunities, or just connecting with other developers. Whether you need a landing page, an Android app, or a game prototype — feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:levisteharold@gmail.com" class="contact-link">
+            <div class="contact-link-icon">✉</div>
+            levisteharold@gmail.com
+          </a>
+          <a href="tel:09074692134" class="contact-link">
+            <div class="contact-link-icon">☏</div>
+            09074692134
+          </a>
+          <a href="https://github.com/MchLllll" target="_blank" class="contact-link">
+            <div class="contact-link-icon">⌥</div>
+            github.com/MchLllll
+          </a>
+          <a href="https://www.linkedin.com/in/leviste-mc-harold-b-3043a140b/" target="_blank" class="contact-link">
+            <div class="contact-link-icon">in</div>
+            linkedin.com/in/leviste-mc-harold
+          </a>
+          <span class="contact-link">
+            <div class="contact-link-icon">⌖</div>
+            Quezon City, Philippines
+          </span>
+        </div>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/meedqyow" method="POST">
+        <div class="form-group">
+          <label for="cname">Your name</label>
+          <input type="text" id="cname" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="cemail">Email address</label>
+          <input type="email" id="cemail" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="cmsg">Message</label>
+          <textarea id="cmsg" name="message" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2025 Mc Harold Leviste</span>
+    <span>BSIS · New Era University · <a href="https://github.com/MchLllll" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/leviste-mc-harold-b-3043a140b/" target="_blank">LinkedIn</a></span>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
